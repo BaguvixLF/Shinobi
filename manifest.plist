@@ -16,7 +16,7 @@
                     <string>software-package</string>
 
                     <key>url</key>
-                    <string>https://lofyjr.github.io/Shinobi/Shinobi.ipa</string>
+                    <string>https://baguvixlf.github.io/Shinobi/Shinobi.ipa</string>
                 </dict>
             </array>
 
@@ -24,7 +24,7 @@
             <dict>
 
                 <key>bundle-identifier</key>
-                <string>com.lofyjr.shinobi</string>
+                <string>com.shinobi.iosApp</string>
 
                 <key>bundle-version</key>
                 <string>1.0</string>
