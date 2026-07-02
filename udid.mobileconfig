@@ -4,30 +4,33 @@
 <plist version="1.0">
 <dict>
 
-<key>PayloadType</key>
-<string>Configuration</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
 
-<key>PayloadIdentifier</key>
-<string>com.shinobi.udid</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
 
-<key>PayloadUUID</key>
-<string>A1B2C3D4-E5F6-7890-ABCD-EXAMPLE</string>
+    <key>PayloadIdentifier</key>
+    <string>com.shinobi.udid.profile</string>
 
-<key>PayloadDisplayName</key>
-<string>Registrar Dispositivo</string>
+    <key>PayloadUUID</key>
+    <string>8F3C2A11-9D55-4C22-ABCD-EXAMPLE1234</string>
 
-<key>PayloadContent</key>
-<array>
+    <key>PayloadDisplayName</key>
+    <string>Registro Shinobi</string>
 
-    <dict>
-        <key>PayloadType</key>
-        <string>Profile Service</string>
+    <key>PayloadContent</key>
+    <array>
 
-        <key>URL</key>
-        <string>https://render-xqeg.onrender.com/capture</string>
-    </dict>
+        <dict>
+            <key>PayloadType</key>
+            <string>Profile Service</string>
 
-</array>
+            <key>URL</key>
+            <string>https://render-xqeg.onrender.com/capture</string>
+        </dict>
+
+    </array>
 
 </dict>
 </plist>
