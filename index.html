@@ -1,23 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instalar Shinobi App</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baixar Jogo</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    opacity: 0.8;
+}
+
+.button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 16px 28px;
+    background: #22c55e;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    background: #16a34a;
+}
+</style>
+
 </head>
 <body>
 
-<div class="container">
-    <h1>Shinobi</h1>
-
-    <p>Clique no botão abaixo para instalar.</p>
+<div class="card">
+    <h1>Meu Jogo</h1>
+    <p>Clique no botão abaixo para baixar e instalar.</p>
 
     <a class="button"
-       href="itms-services://?action=download-manifest&url=https://baguvixlf.github.io/Shinobi/manifest.plist">
-        Instalar App
+       href="itms-services://?action=download-manifest&url=https://SEU_USUARIO.github.io/SEU_REPOSITORIO/manifest.plist">
+        Baixar Jogo
     </a>
-
+    
 </div>
 
 </body>
